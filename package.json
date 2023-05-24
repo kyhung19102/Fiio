@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "start:dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "live": " live-server --open=src/index.html"
+  },
+  "name": "Fiio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Tran Ky Hung",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
