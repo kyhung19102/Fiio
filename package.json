@@ -4,7 +4,7 @@
   },
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "start:dev": "live-server public"
+    "live": " live-server --open=public/index.html"
   },
   "name": "FiiO",
   "version": "1.0.0",
