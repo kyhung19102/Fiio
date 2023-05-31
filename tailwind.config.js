@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js}", 
-            "./node_modules/flowbite/**/*.js"],
+  content: ["./public/**/*.{html,js}",
+    "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       fontFamily: {
@@ -14,6 +14,9 @@ module.exports = {
         '128': '32rem',
         '144': '36rem',
         '160': '40rem',
+      },
+      colors: {
+        'graySlate': '#54575a',
       }
     },
   },

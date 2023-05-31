@@ -6,3 +6,6 @@
     font-family: @apply font-body;
   }
 }
+.slick-slide .inner {
+  margin: 0 15px;
+}
