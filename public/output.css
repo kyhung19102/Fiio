@@ -1133,6 +1133,11 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1879,6 +1884,11 @@ html {
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
+.hover\:text-cyan-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -1889,13 +1899,14 @@ html {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-red-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(224 36 36 / var(--tw-text-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 .focus\:border-blue-500:focus {
@@ -2149,6 +2160,10 @@ html {
 @media (min-width: 1024px) {
   .lg\:h-160 {
     height: 40rem;
+  }
+
+  .lg\:h-\[100px\] {
+    height: 100px;
   }
 
   .lg\:h-\[300px\] {
