@@ -5,7 +5,7 @@
   },
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "live": " live-server --open=public/index.html"
+    "live": "git+https://github.com/tapio/live-server.git#ad22544"
   },
   "name": "FiiO",
   "version": "1.0.0",
