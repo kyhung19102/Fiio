@@ -7,7 +7,7 @@
     "build:css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "live": " live-server --open=index.html"
   },
-  "name": "FiiO",
+  "name": "fiio",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
