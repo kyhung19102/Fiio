@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FiiO</title>
-    <link rel="stylesheet" href="../public/output.css" />
+    <link rel="stylesheet" href="./output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -190,48 +190,80 @@
     </header>
 
     <!-- Slider -->
-    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <div id="default-carousel" class="relative" data-carousel="static">
       <!-- Carousel wrapper -->
       <div class="relative overflow-hidden h-98 md:h-160 lg:h-160">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="./img/m11s.jpg"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit cover"
-            alt="..."
-          />
+          <a href="https://3kshop.vn/fiio-m11s/" target="_blank">
+            <img
+              src="./img/m11s.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
+            />
+          </a>
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="./img/sp3.jpg"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit cover"
-            alt="..."
-          />
+          <a href="https://3kshop.vn/fiio-sp3/" target="_blank">
+            <img
+              src="./img/sp3.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="./img/ft3.jpg"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit cover"
-            alt="..."
-          />
+          <a href="https://3kshop.vn/fiio-ft3/" target="_blank">
+            <img
+              src="./img/ft3.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
         </div>
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="./img/ka5.jpg"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit cover"
-            alt="..."
-          />
+          <a href="https://3kshop.vn/fiio-ka5/" target="_blank">
+            <img
+              src="./img/ka5.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
         </div>
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="./img/m15s.jpg"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit cover"
-            alt="..."
-          />
+          <a href="https://3kshop.vn/fiio-m15s/" target="_blank">
+            <img
+              src="./img/m15s.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
+        </div>
+        <!-- Item 6 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <a href="https://3kshop.vn/fiio-fw3/" target="_blank">
+            <img
+              src="./img/fw3.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
+        </div>
+        <!-- Item 7 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <a href="https://3kshop.vn/fiio-r7/" target="_blank">
+            <img
+              src="./img/r7.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
+        </div>
+        <!-- Item 8 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <a href="https://3kshop.vn/fiio-fd11/" target="_blank">
+            <img
+              src="./img/fd11.jpg"
+              class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            />
+          </a>
         </div>
       </div>
       <!-- Slider indicators -->
@@ -241,7 +273,7 @@
         <button
           type="button"
           class="w-3 h-3 rounded-full"
-          aria-current="true"
+          aria-current="false"
           aria-label="Slide 1"
           data-carousel-slide-to="0"
         ></button>
@@ -273,16 +305,31 @@
           aria-label="Slide 5"
           data-carousel-slide-to="4"
         ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 6"
+          data-carousel-slide-to="5"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 7"
+          data-carousel-slide-to="6"
+        ></button>
+        <button
+          type="button"
+          class="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 8"
+          data-carousel-slide-to="7"
+        ></button>
       </div>
       <!-- Slider controls -->
-      <button
-        type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-prev
-      >
-        <span
-          class="inline-flex items-center justify-center w-8 h-8 bg-gray-800 rounded-full sm:w-10 sm:h-10"
-        >
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-8 h-8 bg-gray-800 rounded-full sm:w-10 sm:h-10">
           <svg
             aria-hidden="true"
             class="w-5 h-5 text-white sm:w-6 sm:h-6"
@@ -301,14 +348,9 @@
           <span class="sr-only">Previous</span>
         </span>
       </button>
-      <button
-        type="button"
-        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-next
-      >
-        <span
-          class="inline-flex items-center justify-center w-8 h-8 bg-gray-800 rounded-full sm:w-10 sm:h-10"
-        >
+
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-8 h-8 bg-gray-800 rounded-full sm:w-10 sm:h-10">
           <svg
             aria-hidden="true"
             class="w-5 h-5 text-white sm:w-6 sm:h-6"
@@ -591,7 +633,7 @@
         >
           <!-- Item -->
 
-          <a href="https://www.fiio.com/newsinfo/844525.html">
+          <a href="https://www.fiio.com/newsinfo/844525.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/1-6-2023.jpg"
@@ -606,7 +648,7 @@
               2023-06-01
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/844235.html">
+          <a href="https://www.fiio.com/newsinfo/844235.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/31-5-2023.jpg"
@@ -621,7 +663,7 @@
               2023-05-31
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/843937.html">
+          <a href="https://www.fiio.com/newsinfo/843937.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/30-5-2023.jpg"
@@ -636,7 +678,7 @@
               2023-05-30
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/843655.html">
+          <a href="https://www.fiio.com/newsinfo/843655.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/29-05-2023.jpg"
@@ -651,7 +693,7 @@
               2023-05-29
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/842827.html">
+          <a href="https://www.fiio.com/newsinfo/842827.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/25-05-2023.jpg"
@@ -666,7 +708,7 @@
               2023-05-25
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/840903.html">
+          <a href="https://www.fiio.com/newsinfo/840903.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/17-05-2023.jpg"
@@ -681,7 +723,7 @@
               2023-05-17
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/839994.html">
+          <a href="https://www.fiio.com/newsinfo/839994.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/16-05-2023.jpg"
@@ -696,7 +738,7 @@
               2023-05-12
             </p>
           </a>
-          <a href="https://www.fiio.com/newsinfo/835878.html">
+          <a href="https://www.fiio.com/newsinfo/835878.html" target="_blank">
             <div class="w-full h-[250px] lg:h-[300px] overflow-hidden">
               <img
                 src="./img/News/12-05-2023.jpg"
